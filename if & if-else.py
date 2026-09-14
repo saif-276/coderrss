@@ -35,3 +35,45 @@ if ch in 'aeiou':
     print("Vowel")
 else:
     print("Consonant")
+    
+#21
+age = int(input("Enter age: "))
+if age < 5:
+    price = 0
+elif age < 12:
+    price = 50
+elif age < 60:
+    price = 100
+else:
+    price = 60
+print("Ticket price:", price)
+
+#22
+age = int(input("Enter age: "))
+if age < 13:
+    print("Child")
+elif age < 20:
+    print("Teenager")
+elif age < 60:
+    print("Adult")
+else:
+    print("Senior")
+
+#23
+hour = int(input("Enter hour (0-23): "))
+if 5 <= hour < 12:
+    print("Good Morning")
+elif 12 <= hour < 17:
+    print("Good Afternoon")
+elif 17 <= hour < 21:
+    print("Good Evening")
+else:
+    print("Good Night")
+
+#24
+username = input("Enter username: ")
+password = input("Enter password: ")
+if username == "admin" and password == "admin123":
+    print("Login successful")
+else:
+    print("Invalid username or password")
